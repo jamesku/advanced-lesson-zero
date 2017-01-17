@@ -1,15 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
 import './index.css';
+import App from './app.js';
 
-
-const App = ()=>{
-    return(
-    <h1>Hello React!</h1>
-    );
-}
-
-ReactDOM.render(
+render(
   <App />,
   document.getElementById('root')
 );
+
+
+
